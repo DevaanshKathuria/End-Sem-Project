@@ -1,0 +1,106 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #FFD700; /* Golden color on hover */
+  }
+  
+  /* Mobile Menu Button (Hamburger) */
+  .menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Responsive Design (Mobile) */
+  @media (max-width: 768px) {
+    nav ul {
+      display: none;
+      width: 100%;
+      text-align: center;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    nav.active ul {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+  
