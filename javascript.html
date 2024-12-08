@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <title>Basics of Javascript</title>
-    <style>
+    <link rel="stylesheet" href="header.css">
+    <!-- <style>
         table{
             border: 2px solid black;
             border-collapse: collapse;
@@ -12,9 +13,114 @@
             padding: 8px;
         }
 
-    </style>
+        header {
+            position: fixed;
+            height: auto;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        body {
+            padding-top: 100px; /* Add space for fixed header */
+        }
+        ul li {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 0;
+        }
+        nav ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+        }
+    </style> -->
+    <!-- <style> -->
+        <!-- /* Header styles */
+        /* header {
+            position: fixed;
+            height: 70px; /* Adjusted for better visibility */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        /* Body padding for fixed header */
+        body {
+            padding-top: 100px; /* Adjust space for fixed header */
+        }
+
+        /* Reset for unordered list */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* General styling for navigation links */
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        /* Style the navigation list items */
+        ul li {
+            display: inline-block;
+        }
+
+        /* Header navigation grid layout */
+        nav ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr; /* 2fr for the center (logo) */
+            align-items: center; /* Vertically center the items */
+            justify-items: center; /* Horizontally center the items */
+            height: 100%;
+        }
+
+        /* Styling for the logo */
+        nav .logo {
+            display: flex;
+            justify-content: center; /* Center the logo horizontally */
+            align-items: center; /* Center the logo vertically */
+        }
+
+        /* Logo image styling */
+        nav .logo img {
+            height:110px;  /* Adjust height to fit better */
+            width: 150px;   /* Maintain aspect ratio */
+        }
+
+        /* Optional: hover effect for the links */
+        nav a:hover {
+            background-color: #f0f0f0;
+        } -->
+    <!-- </style> */ -->
+
 </head>
 <body style="line-height: 1.8;">
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="#"><img src="/Images/Screenshot_2024-12-07_at_12.25.30_PM-removebg.png" alt="Logo"></a>
+                </li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+                <li><a href="#">Guide</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>Javascript basics</h1>
     <p>JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible.</p>
     <h1>What is JavaScript</h1>
