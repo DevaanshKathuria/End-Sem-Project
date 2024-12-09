@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -96,7 +96,7 @@
             background-color: #f0f0f0;
         }
     </style> -->
-</head>
+<!--</head>
 <body>
     <header>
         <nav>
@@ -262,4 +262,303 @@
         </div>
     </section>
 </body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+body, h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, table, form, div, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #3a87ad;
+    margin: 20px 0 10px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #555;
+    margin: 20px 0 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    color: #444;
+}
+
+pre, code {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+form {
+    margin: 20px 0;
+}
+
+form label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+audio, video {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>HTML Basics</h1>
+    </div>
+    <section>
+        <div>
+            <h2>What is HTML?</h2>
+            <p>HTML (HyperText Markup Language) is the foundation of web development. It is used to structure content on web pages using elements and tags.</p>
+        </div>
+        <div>
+            <h2>Basic HTML Commands</h2>
+            <p>Below are some common HTML tags with examples:</p>
+        </div>
+        <div>
+            <h3>1. Headings</h3>
+            <p>Headings are defined using <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>. Here's an example:</p>
+            <pre>
+&lt;h1&gt;This is a Heading 1&lt;/h1&gt;
+&lt;h2&gt;This is a Heading 2&lt;/h2&gt;
+            </pre>
+            <h4>Result:</h4>
+            <h1>This is a Heading 1</h1>
+            <h2>This is a Heading 2</h2>
+        </div>
+        <div>
+            <h3>2. Paragraphs</h3>
+            <p>Paragraphs are created using the <code>&lt;p&gt;</code> tag:</p>
+            <pre>
+&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+            </pre>
+            <h4>Result:</h4>
+            <p>This is a paragraph of text.</p>
+        </div>
+        <div>
+            <h3>3. Links</h3>
+            <p>Hyperlinks are created using the <code>&lt;a&gt;</code> tag:</p>
+            <pre>
+&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+            </pre>
+            <h4>Result:</h4>
+            <a href="https://my.newtonschool.co/dashboard" target="_blank">Visit Example</a>
+        </div>
+        <div>
+            <h3>4. Images</h3>
+            <p>Images are added using the <code>&lt;img&gt;</code> tag:</p>
+            <pre>
+&lt;img src="example.jpg" alt="Example Image" width="300" height="200"&gt;
+            </pre>
+            <h4>Result:</h4>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/024/646/930/small_2x/ai-generated-stray-cat-in-danger-background-animal-background-photo.jpg" alt="Example Image" width="300" height="200">
+        </div>
+        <div>
+            <h3>5. Lists</h3>
+            <p>You can create ordered and unordered lists:</p>
+            <h4>Ordered List:</h4>
+            <pre>
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;
+            </pre>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ol>
+            <h4>Unordered List:</h4>
+            <pre>
+&lt;ul&gt;
+  &lt;li&gt;Item A&lt;/li&gt;
+  &lt;li&gt;Item B&lt;/li&gt;
+&lt;/ul&gt;
+            </pre>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+            </ul>
+        </div>
+        <div>
+            <h3>6. Tables</h3>
+            <p>Tables are created using the <code>&lt;table&gt;</code> tag:</p>
+            <pre>
+&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Alice&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+            </pre>
+            <h4>Result:</h4>
+            <table border="1">
+                <tr>`
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Alice</td>
+                    <td>25</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>7. Forms</h3>
+            <p>Forms collect user input:</p>
+            <pre>
+&lt;form&gt;
+  &lt;label&gt;Name: &lt;input type="text" name="name"&gt;&lt;/label&gt;
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+            </pre>
+            <h4>Result:</h4>
+            <form>
+                <label>Name: <input type="text" name="name"></label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div>
+            <h3>8. Audio</h3>
+            <p>Audio is added using the <code>&lt;audio&gt;</code> tag:</p>
+            <pre>
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;
+            </pre>
+            <h4>Result:</h4>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <h3>9. Video</h3>
+            <p>Video is added using the <code>&lt;video&gt;</code> tag:</p>
+            <pre>
+&lt;video controls width="320" height="240"&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+            </pre>
+            <h4>Result:</h4>
+            <video controls width="320" height="240">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
