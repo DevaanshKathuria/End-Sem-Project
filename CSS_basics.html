@@ -46,72 +46,132 @@
     <head>
         <title>CSS Properties Guide</title>
         <link rel="stylesheet" href="header.css">
-        <!-- <style>
-            /* Header styles */
-            header {
-                position: fixed;
-                height: 70px; /* Adjusted for better visibility */
-                top: 0;
-                left: 0;
-                width: 100%;
-                background-color: white;
-                padding: 10px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                z-index: 1000;
-            }
-    
-            /* Body padding for fixed header */
+        <link rel="stylesheet" href="/index.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #2b2b2b;
+            padding: 20px;
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #8800cc;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #00cc99;
+            margin: 25px 0 15px;
+        }
+
+        h3 {
+            font-size: 1.75rem;
+            color: #00cc99;
+            margin: 20px 0 10px;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+            color: #00cc99;
+            margin: 15px 0 10px;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #ffffff;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        br {
+            margin: 10px 0;
+        }
+
+        li {
+            color: #ffffff;
+        }
+
+        /* Header and Navigation Styles */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #00cc99;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
             body {
-                padding-top: 100px; /* Adjust space for fixed header */
+                padding: 15px;
+                padding-top: 80px;
             }
-    
-            /* Reset for unordered list */
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
+
+            h1 {
+                font-size: 2rem;
             }
-    
-            /* General styling for navigation links */
-            nav a {
-                color: #333;
-                text-decoration: none;
-                padding: 10px;
-                display: inline-block;
+
+            h2 {
+                font-size: 1.75rem;
             }
-    
-            /* Style the navigation list items */
-            ul li {
-                display: inline-block;
+
+            h3 {
+                font-size: 1.5rem;
             }
-    
-            /* Header navigation grid layout */
+
+            h4 {
+                font-size: 1.25rem;
+            }
+
             nav ul {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr; /* 2fr for the center (logo) */
-                align-items: center; /* Vertically center the items */
-                justify-items: center; /* Horizontally center the items */
-                height: 100%;
+                flex-direction: column;
+                text-align: center;
             }
-    
-            /* Styling for the logo */
-            nav .logo {
-                display: flex;
-                justify-content: center; /* Center the logo horizontally */
-                align-items: center; /* Center the logo vertically */
+
+            nav ul li {
+                margin: 10px 0;
             }
-    
-            /* Logo image styling */
-            nav .logo img {
-                height:110px;  /* Adjust height to fit better */
-                width: 150px;   /* Maintain aspect ratio */
-            }
-    
-            /* Optional: hover effect for the links */
-            nav a:hover {
-                background-color: #f0f0f0;
-            }
-        </style> -->
+        }
+    </style>
     </head>
     <body>
     

@@ -143,3 +143,6 @@ button {
 .main_div div img:hover{
     box-shadow: 5px 15px 20px purple
 }
+ol, ul, li {
+    color: white;
+}
