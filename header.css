@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    height: 60px; /* Adjusted for better visibility */
+    height: 60px;
     top: 0;
     left: 0;
     width: 100%;
@@ -10,19 +10,16 @@ header {
     z-index: 1000;
 }
 
-/* Body padding for fixed header */
 body {
-    padding-top: 100px; /* Adjust space for fixed header */
+    padding-top: 100px;
 }
 
-/* Reset for unordered list */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-/* General styling for navigation links */
 nav a {
     color: whitesmoke;
     text-decoration: none;
@@ -30,36 +27,32 @@ nav a {
     display: inline-block;
 }
 
-/* Style the navigation list items */
 ul li {
     display: inline-block;
 }
 
-/* Header navigation grid layout */
+
 nav ul {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr; /* 2fr for the center (logo) */
-    align-items: center; /* Vertically center the items */
-    justify-items: center; /* Horizontally center the items */
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr; 
+    align-items: center; 
+    justify-items: center; 
     height: 100%;
 }
 
-/* Styling for the logo */
 nav .logo {
     display: flex;
-    justify-content: center; /* Center the logo horizontally */
-    align-items: center; /* Center the logo vertically */
+    justify-content: center;
+    align-items: center;
     height: 60px;
     width: 100px;
 }
 
-/* Logo image styling */
 nav .logo img {
-    height:55px;  /* Adjust height to fit better */
-    width: 170px;   /* Maintain aspect ratio */
+    height:55px;  
+    width: 170px; 
 }
 
-/* Optional: hover effect for the links */
 nav a:hover {
     cursor: pointer;
     color: blueviolet;
