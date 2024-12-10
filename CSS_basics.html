@@ -47,17 +47,17 @@
         <title>CSS Properties Guide</title>
         <link rel="stylesheet" href="/index.css">
     <style>
-        * {
+        /* * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
+        } */
 
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #2b2b2b;
+            background-color: #000000;
             padding: 20px;
             padding-top: 100px;
         }
@@ -103,7 +103,7 @@
         }
 
         /* Header and Navigation Styles */
-        header {
+        /* header {
             position: fixed;
             top: 0;
             left: 0;
@@ -137,7 +137,7 @@
         .logo img {
             height: 50px;
             width: auto;
-        }
+        } */
 
         /* Responsive Design */
         @media (max-width: 768px) {
@@ -177,7 +177,7 @@
         }
 
     </style>
-    <link rel="stylesheet" href="/header.css">
+    <link rel="stylesheet" href="header.css">
     </head>
     <body>
     
@@ -200,7 +200,7 @@
     <div class="left-container" style="margin-top: 105px;line-height: 3;">
         <h3>Contents</h3>
         <ul>
-            <a href="1"><li>What is CSS</li></a>
+            <li><a href="heading_1">What is CSS</a></li>
             <br><hr>
             <li>Inline-CSS</li>
             <br><hr>
@@ -208,7 +208,7 @@
             <br><hr>
             <li>Span Element</li>
             <br><hr>
-            <li>Anchor Tag</li>
+            <li><a href="heading_5"> Anchor Tag</li></a>
             <br><hr>
             <li>List Tags</li>
             <br><hr>
@@ -229,7 +229,7 @@
     <div class="right-container">
     <h1>CSS Properties Guide</h1>
     <br>
-    <h2 id="1">What is CSS?</h2>
+    <h2 id="heading_1">What is CSS?</h2>
     <p>CSS (Cascading Style Sheets) is used to
         style and layout web pages by defining
         how HTML elements should be displayed.
@@ -313,7 +313,7 @@ The difference between display: inline-block and display: block is
         that, with display: block, a line break happens after the element, so a
 block element doesn't sit next to other elements
     </p>
-    <h2>Anchor Tag</h2>
+    <h2 id="heading_5">Anchor Tag</h2>
     <p>The &lt;a&gt; (anchor) element in HTML is used to create
         hyperlinks, allowing users to navigate between web pages
         or resources. By setting the href attribute, you can link to

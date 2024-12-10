@@ -235,4 +235,4 @@ ol, ul, li {
     animation: typeAndDelete 4s steps(11) infinite,
       blinkCursor 0.5s step-end infinite alternate;
     margin-top: 1.5em;
-  }
+    }
