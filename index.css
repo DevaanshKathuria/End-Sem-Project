@@ -160,7 +160,7 @@ ol, ul, li {
     45%,
     55% {
       width: 6.2em;
-    } /* adjust width based on content */
+    }
     90%,
     100% {
       width: 0;
