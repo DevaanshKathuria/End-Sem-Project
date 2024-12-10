@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Basics of Web Development</title>
+    <style>
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: #fff;
+}
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1rem;
+}
+
+.header nav a.active,
+.header nav a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.about-us {
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+.about-us .intro {
+    margin-bottom: 2rem;
+}
+
+.about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.info-box {
+    background: #230033;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #ccc;
+}
+.info-box:hover{
+    box-shadow: 5px 15px 20px purple;
+    transition: 0.3s ease-out;
+}
+    </style>
+</head>
+<body>
+    <main class="about-us">
+        <section class="intro">
+            <h1>About Us</h1>
+            <p>Welcome to Code Sphere, a platform dedicated to helping aspiring developers master the basics of web development.</p>
+        </section>
+        <section class="details">
+            <div class="info-box">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to create a beginner-friendly environment where everyone can learn and practice essential skills to build stunning and functional websites. We believe that knowledge is best shared and cultivated together.
+                </p>
+            </div>
+            <div class="info-box">
+                <h2>What We Offer</h2>
+                <p>
+                    From step-by-step tutorials on HTML, CSS, and JavaScript to guided projects, our platform ensures a comprehensive learning experience. Join a community of learners and developers eager to grow and build together.
+                </p>
+            </div>
+            <div class="info-box">
+                <h2>Join Us</h2>
+                <p>
+                    Take the first step toward becoming a web developer. Explore our resources, follow our guides, and start building your future today with Code Sphere!
+                </p>
+            </div>
+            <div class="team-info" style="display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 2rem;justify-content: space-evenly">
+            <div class="info-box">
+                <a href="https://github.com/DevaanshKathuria" target="_blank"><img src="Images/Devaansh.jpg" alt="Example Image" width="220" height="200"></a>
+                <p>Devaansh Kathuria</p>
+            </div>
+            <div class="info-box">
+                <a href="https://github.com/abhey8" target="_blank"><img src="Images/Abhey Dua.jpeg" alt="Example Image" width="220" height="200"></a>
+                <p>Abhey Dua</p>
+            </div>
+            <div class="info-box">
+                <a href="https://github.com/Om-Mishra09" target="_blank"><img src="Images/Om Dhiraj Mishra.jpeg" alt="Example Image" width="220" height="200"></a>
+                <p>Om Mishra</p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer class="footer" style="padding: 1rem 0;background : #3d005f;margin-top : 2rem;color : #ccc;">
+        <p style="text-align: center;">&copy; 2024 Code Sphere. All rights reserved.</p>
+    </footer>
+</body>
+</html>
