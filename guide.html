@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where to Start</title>
     <style>
-        /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,31 +12,6 @@ body {
     color: white;
 }
 
-/* Navbar */
-.navbar {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #333;
-}
-
-.navbar li {
-    list-style: none;
-    margin: 0 15px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.navbar a:hover {
-    color: #00cc99;
-}
-
-/* Intro Section */
 .intro {
     text-align: center;
     margin: 30px 0;
@@ -52,7 +26,6 @@ body {
     font-size: 1.2em;
 }
 
-/* Timeline Section */
 .timeline {
     display: flex;
     flex-direction: column;
@@ -154,8 +127,23 @@ body {
 
     </style>
 <link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="header.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="#"><img src="Images/code_sphere_logo.png" alt="Logo"></a>
+                </li>
+                <li><a href="HTML_basics.html">HTML</a></li>
+                <li><a href="CSS_basics.html">CSS</a></li>
+                <li><a href="javascript.html">JS</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="intro">
             <h1>Where To Start</h1>
@@ -184,7 +172,7 @@ body {
             </div>
             <div class="timeline-item">
                 <div class="card">
-                    <h2>JavaScript</h2>
+                    <h2>JS</h2>
                 </div>
                 <div class="details">
                     <p>3. Make your web page interactive</p>
